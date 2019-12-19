@@ -1,0 +1,36 @@
+[[package]]
+category = "main"
+description = "An implementation of lxml.xmlfile for the standard library"
+name = "et-xmlfile"
+optional = false
+python-versions = "*"
+version = "1.0.1"
+
+[[package]]
+category = "main"
+description = "Julian dates from proleptic Gregorian and Julian calendars."
+name = "jdcal"
+optional = false
+python-versions = "*"
+version = "1.4.1"
+
+[[package]]
+category = "main"
+description = "A Python library to read/write Excel 2010 xlsx/xlsm files"
+name = "openpyxl"
+optional = false
+python-versions = ">=3.6,"
+version = "3.0.2"
+
+[package.dependencies]
+et_xmlfile = "*"
+jdcal = "*"
+
+[metadata]
+content-hash = "08c4d9a5091e57387b0d006bf8e14ccee279833c561b67a6e271df42e9b939a8"
+python-versions = "^3.7"
+
+[metadata.hashes]
+et-xmlfile = ["614d9722d572f6246302c4491846d2c393c199cfa4edc9af593437691683335b"]
+jdcal = ["1abf1305fce18b4e8aa248cf8fe0c56ce2032392bc64bbd61b5dff2a19ec8bba", "472872e096eb8df219c23f2689fc336668bdb43d194094b5cc1707e1640acfc8"]
+openpyxl = ["eb68c08a72ac6d9812df181e88ebece3a68436364353eb6eda3bed863e3d73a6"]
